@@ -30,9 +30,7 @@
             <Path fileType="data">/usr/plugins/bearer</Path>
             <Path fileType="data">/usr/plugins/qmltooling</Path>
             <Path fileType="data">/usr/plugins/accessible</Path>
-            <Path fileType="data">/usr/share/q3porting.xml</Path>
-            <Path fileType="data">/usr/share/phrasebooks</Path>
-            <Path fileType="data">/usr/share/mkspecs</Path>
+            <Path fileType="data">/usr/share/qt4</Path>
             <Path fileType="data">/usr/translations/qt_pl.qm</Path>
             <Path fileType="data">/usr/translations/assistant_da.qm</Path>
             <Path fileType="data">/usr/translations/qt_gl.qm</Path>
