@@ -17,144 +17,34 @@
         <Summary xml:lang="en">A cross-platform application and UI framework</Summary>
         <Description xml:lang="en">	A cross-platform application and UI framework
 </Description>
-        <PartOf>desktop.qt</PartOf>
         <Files>
-            <Path fileType="data">/usr/plugins/inputmethods</Path>
-            <Path fileType="data">/usr/plugins/codecs</Path>
-            <Path fileType="data">/usr/plugins/sqldrivers</Path>
-            <Path fileType="data">/usr/plugins/graphicssystems</Path>
-            <Path fileType="data">/usr/plugins/script</Path>
-            <Path fileType="data">/usr/plugins/designer</Path>
-            <Path fileType="data">/usr/plugins/iconengines</Path>
-            <Path fileType="data">/usr/plugins/imageformats</Path>
-            <Path fileType="data">/usr/plugins/bearer</Path>
-            <Path fileType="data">/usr/plugins/qmltooling</Path>
-            <Path fileType="data">/usr/plugins/accessible</Path>
-            <Path fileType="data">/usr/share/qt4</Path>
-            <Path fileType="data">/usr/translations/qt_pl.qm</Path>
-            <Path fileType="data">/usr/translations/assistant_da.qm</Path>
-            <Path fileType="data">/usr/translations/qt_gl.qm</Path>
-            <Path fileType="data">/usr/translations/designer_zh_CN.qm</Path>
-            <Path fileType="data">/usr/translations/linguist_ja.qm</Path>
-            <Path fileType="data">/usr/translations/qt_lt.qm</Path>
-            <Path fileType="data">/usr/translations/qvfb_hu.qm</Path>
-            <Path fileType="data">/usr/translations/designer_fr.qm</Path>
-            <Path fileType="data">/usr/translations/linguist_sl.qm</Path>
-            <Path fileType="data">/usr/translations/assistant_zh_CN.qm</Path>
-            <Path fileType="data">/usr/translations/assistant_pl.qm</Path>
-            <Path fileType="data">/usr/translations/linguist_de.qm</Path>
-            <Path fileType="data">/usr/translations/qt_help_zh_TW.qm</Path>
-            <Path fileType="data">/usr/translations/qvfb_pl.qm</Path>
-            <Path fileType="data">/usr/translations/qt_he.qm</Path>
-            <Path fileType="data">/usr/translations/qvfb_uk.qm</Path>
-            <Path fileType="data">/usr/translations/linguist_zh_CN.qm</Path>
-            <Path fileType="data">/usr/translations/qtconfig_sl.qm</Path>
-            <Path fileType="data">/usr/translations/qtconfig_he.qm</Path>
-            <Path fileType="data">/usr/translations/linguist_he.qm</Path>
-            <Path fileType="data">/usr/translations/qt_ja.qm</Path>
-            <Path fileType="data">/usr/translations/qvfb_sl.qm</Path>
-            <Path fileType="data">/usr/translations/qvfb_zh_TW.qm</Path>
-            <Path fileType="data">/usr/translations/assistant_ru.qm</Path>
-            <Path fileType="data">/usr/translations/qt_hu.qm</Path>
-            <Path fileType="data">/usr/translations/designer_pl.qm</Path>
-            <Path fileType="data">/usr/translations/qtconfig_ko.qm</Path>
-            <Path fileType="data">/usr/translations/linguist_pl.qm</Path>
-            <Path fileType="data">/usr/translations/qt_help_fr.qm</Path>
-            <Path fileType="data">/usr/translations/linguist_uk.qm</Path>
-            <Path fileType="data">/usr/translations/qt_es.qm</Path>
-            <Path fileType="data">/usr/translations/linguist_zh_TW.qm</Path>
-            <Path fileType="data">/usr/translations/assistant_ja.qm</Path>
-            <Path fileType="data">/usr/translations/qt_help_sl.qm</Path>
-            <Path fileType="data">/usr/translations/qt_uk.qm</Path>
-            <Path fileType="data">/usr/translations/assistant_de.qm</Path>
-            <Path fileType="data">/usr/translations/qtconfig_ru.qm</Path>
-            <Path fileType="data">/usr/translations/linguist_eu.qm</Path>
-            <Path fileType="data">/usr/translations/qt_help_pl.qm</Path>
-            <Path fileType="data">/usr/translations/assistant_sl.qm</Path>
-            <Path fileType="data">/usr/translations/designer_ko.qm</Path>
-            <Path fileType="data">/usr/translations/qtconfig_pl.qm</Path>
-            <Path fileType="data">/usr/translations/qvfb_ru.qm</Path>
-            <Path fileType="data">/usr/translations/linguist_ko.qm</Path>
-            <Path fileType="data">/usr/translations/qvfb_zh_CN.qm</Path>
-            <Path fileType="data">/usr/translations/designer_zh_TW.qm</Path>
-            <Path fileType="data">/usr/translations/qt_help_ko.qm</Path>
-            <Path fileType="data">/usr/translations/qt_help_uk.qm</Path>
-            <Path fileType="data">/usr/translations/designer_cs.qm</Path>
-            <Path fileType="data">/usr/translations/qt_ar.qm</Path>
-            <Path fileType="data">/usr/translations/qt_cs.qm</Path>
-            <Path fileType="data">/usr/translations/qtconfig_zh_TW.qm</Path>
-            <Path fileType="data">/usr/translations/assistant_hu.qm</Path>
-            <Path fileType="data">/usr/translations/linguist_hu.qm</Path>
-            <Path fileType="data">/usr/translations/assistant_ko.qm</Path>
-            <Path fileType="data">/usr/translations/linguist_ru.qm</Path>
-            <Path fileType="data">/usr/translations/designer_hu.qm</Path>
-            <Path fileType="data">/usr/translations/qt_help_ru.qm</Path>
-            <Path fileType="data">/usr/translations/assistant_cs.qm</Path>
-            <Path fileType="data">/usr/translations/designer_de.qm</Path>
-            <Path fileType="data">/usr/translations/qt_help_ja.qm</Path>
-            <Path fileType="data">/usr/translations/qtconfig_hu.qm</Path>
-            <Path fileType="data">/usr/translations/qvfb_ja.qm</Path>
-            <Path fileType="data">/usr/translations/qt_help_cs.qm</Path>
-            <Path fileType="data">/usr/translations/qt_da.qm</Path>
-            <Path fileType="data">/usr/translations/qt_help_zh_CN.qm</Path>
-            <Path fileType="data">/usr/translations/assistant_uk.qm</Path>
-            <Path fileType="data">/usr/translations/qt_help_gl.qm</Path>
-            <Path fileType="data">/usr/translations/qt_sk.qm</Path>
-            <Path fileType="data">/usr/translations/qt_ko.qm</Path>
-            <Path fileType="data">/usr/translations/qt_de.qm</Path>
-            <Path fileType="data">/usr/translations/qtconfig_zh_CN.qm</Path>
-            <Path fileType="data">/usr/translations/qt_eu.qm</Path>
-            <Path fileType="data">/usr/translations/qt_ru.qm</Path>
-            <Path fileType="data">/usr/translations/qt_help_de.qm</Path>
-            <Path fileType="data">/usr/translations/assistant_zh_TW.qm</Path>
-            <Path fileType="data">/usr/translations/qtconfig_eu.qm</Path>
-            <Path fileType="data">/usr/translations/qt_pt.qm</Path>
-            <Path fileType="data">/usr/translations/qt_sl.qm</Path>
-            <Path fileType="data">/usr/translations/qvfb_eu.qm</Path>
-            <Path fileType="data">/usr/translations/qt_fa.qm</Path>
-            <Path fileType="data">/usr/translations/assistant_fr.qm</Path>
-            <Path fileType="data">/usr/translations/designer_uk.qm</Path>
-            <Path fileType="data">/usr/translations/qtconfig_ja.qm</Path>
-            <Path fileType="data">/usr/translations/qt_help_hu.qm</Path>
-            <Path fileType="data">/usr/translations/qtscript_eu.qm</Path>
-            <Path fileType="data">/usr/translations/qt_fr.qm</Path>
-            <Path fileType="data">/usr/translations/qt_help_da.qm</Path>
-            <Path fileType="data">/usr/translations/linguist_fr.qm</Path>
-            <Path fileType="data">/usr/translations/qtconfig_uk.qm</Path>
-            <Path fileType="data">/usr/translations/designer_sl.qm</Path>
-            <Path fileType="data">/usr/translations/qt_zh_CN.qm</Path>
-            <Path fileType="data">/usr/translations/qvfb_ko.qm</Path>
-            <Path fileType="data">/usr/translations/linguist_cs.qm</Path>
-            <Path fileType="data">/usr/translations/qt_help_eu.qm</Path>
-            <Path fileType="data">/usr/translations/qt_sv.qm</Path>
-            <Path fileType="data">/usr/translations/designer_ja.qm</Path>
-            <Path fileType="data">/usr/translations/assistant_eu.qm</Path>
-            <Path fileType="data">/usr/translations/qt_zh_TW.qm</Path>
-            <Path fileType="data">/usr/translations/designer_ru.qm</Path>
             <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/plugins/qt4</Path>
             <Path fileType="library">/usr/lib64/lib*.so.*</Path>
-            <Path fileType="library">/usr/lib64/libQtDesigner.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtDBus.prl</Path>
             <Path fileType="library">/usr/lib64/libQtOpenGL.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtTest.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtDeclarative.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtUiTools.prl</Path>
+            <Path fileType="library">/usr/lib64/libQt3Support.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtNetwork.prl</Path>
             <Path fileType="library">/usr/lib64/libQtMeeGoGraphicsSystemHelper.prl</Path>
             <Path fileType="library">/usr/lib64/libQtScriptTools.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtUiTools.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtDBus.prl</Path>
             <Path fileType="library">/usr/lib64/libQtCLucene.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtScript.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtSql.prl</Path>
-            <Path fileType="library">/usr/lib64/libQt3Support.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtXmlPatterns.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtTest.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtHelp.prl</Path>
             <Path fileType="library">/usr/lib64/libQtSvg.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtCore.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtMultimedia.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtNetwork.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtDeclarative.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtDesigner.prl</Path>
             <Path fileType="library">/usr/lib64/libQtXml.prl</Path>
             <Path fileType="library">/usr/lib64/libQtGui.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtCore.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtMultimedia.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtSql.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtXmlPatterns.prl</Path>
             <Path fileType="library">/usr/lib64/libQtDesignerComponents.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtHelp.prl</Path>
-            <Path fileType="data">/usr/imports/Qt</Path>
+            <Path fileType="library">/usr/lib64/libQtScript.prl</Path>
+            <Path fileType="data">/usr/translations/qt4</Path>
+            <Path fileType="data">/usr/share/qt4</Path>
+            <Path fileType="data">/usr/imports/Qt4</Path>
         </Files>
     </Package>
     <Package>
@@ -167,15 +57,15 @@
             <Dependency release="current">qt4</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="header">/usr/include</Path>
             <Path fileType="library">/usr/lib64/lib*.so</Path>
             <Path fileType="library">/usr/lib64/lib*.a</Path>
             <Path fileType="data">/usr/lib64/pkgconfig</Path>
+            <Path fileType="header">/usr/include</Path>
         </Files>
     </Package>
     <History>
         <Update release="1">
-            <Date>2015-07-18</Date>
+            <Date>2015-07-20</Date>
             <Version>4.8.7</Version>
             <Comment>Packaging update</Comment>
             <Name>Guilherme Thomazi Bonicontro</Name>
