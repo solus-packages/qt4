@@ -19,7 +19,6 @@
 </Description>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="data">/usr/plugins/qt4</Path>
             <Path fileType="library">/usr/lib64/lib*.so.*</Path>
             <Path fileType="library">/usr/lib64/libQtDBus.prl</Path>
             <Path fileType="library">/usr/lib64/libQtOpenGL.prl</Path>
@@ -42,9 +41,8 @@
             <Path fileType="library">/usr/lib64/libQtXmlPatterns.prl</Path>
             <Path fileType="library">/usr/lib64/libQtDesignerComponents.prl</Path>
             <Path fileType="library">/usr/lib64/libQtScript.prl</Path>
-            <Path fileType="data">/usr/translations/qt4</Path>
+            <Path fileType="library">/usr/lib64/qt4</Path>
             <Path fileType="data">/usr/share/qt4</Path>
-            <Path fileType="data">/usr/imports/Qt4</Path>
         </Files>
     </Package>
     <Package>

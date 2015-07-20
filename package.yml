@@ -36,7 +36,7 @@ description: |
    	A cross-platform application and UI framework
 setup      : |
     unset LD_AS_NEEDED
-    ./configure --prefix=/usr --libdir=/usr/lib64  -datadir /usr/share/qt4 -docdir /usr/share/doc/qt4 -sysconfdir /etc/xdg -plugindir /usr/plugins/qt4 -translationdir /usr/translations/qt4 -importdir /usr/imports/Qt4 -headerdir /usr/include/qt4 -opensource -confirm-license -no-phonon -no-phonon-backend -no-webkit -graphicssystem raster -openssl-linked -nomake demos -nomake examples -nomake docs -no-rpath -optimized-qmake -no-reduce-relocations -dbus-linked -no-openvg -opengl es2
+    ./configure --prefix=/usr --libdir=/usr/lib64 -bindir /usr/bin/qt4 -datadir /usr/share/qt4 -docdir /usr/share/doc/qt4 -sysconfdir /etc/xdg -plugindir %libdir%/qt4/plugins -translationdir /usr/share/qt4/translations -importdir %libdir%/qt4/imports -headerdir /usr/include/qt4 -opensource -confirm-license -no-phonon -no-phonon-backend -no-webkit -graphicssystem raster -openssl-linked -nomake demos -nomake examples -nomake docs -no-rpath -optimized-qmake -no-reduce-relocations -dbus-linked -no-openvg -opengl es2
 build      : |
     unset LD_AS_NEEDED
     export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$srcdir/lib"
