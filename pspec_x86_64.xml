@@ -55,6 +55,7 @@
             <Dependency release="current">qt4</Dependency>
         </RuntimeDependencies>
         <Files>
+            <Path fileType="executable">/usr/bin/qmake</Path>
             <Path fileType="library">/usr/lib64/lib*.so</Path>
             <Path fileType="library">/usr/lib64/lib*.a</Path>
             <Path fileType="data">/usr/lib64/pkgconfig</Path>
@@ -63,7 +64,7 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2015-07-20</Date>
+            <Date>2015-08-05</Date>
             <Version>4.8.7</Version>
             <Comment>Packaging update</Comment>
             <Name>Guilherme Thomazi Bonicontro</Name>
