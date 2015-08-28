@@ -3,8 +3,8 @@
         <Name>qt4</Name>
         <Homepage>http://www.qt.io/</Homepage>
         <Packager>
-            <Name>Guilherme Thomazi Bonicontro</Name>
-            <Email>thomazi@linux.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Packager>
         <License>LGPL-2.1</License>
         <Summary xml:lang="en">A cross-platform application and UI framework</Summary>
@@ -17,32 +17,33 @@
         <Summary xml:lang="en">A cross-platform application and UI framework</Summary>
         <Description xml:lang="en">	A cross-platform application and UI framework
 </Description>
+        <PartOf>desktop.qt</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/qt4</Path>
             <Path fileType="library">/usr/lib64/lib*.so.*</Path>
-            <Path fileType="library">/usr/lib64/libQtDBus.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtOpenGL.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtDeclarative.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtUiTools.prl</Path>
-            <Path fileType="library">/usr/lib64/libQt3Support.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtNetwork.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtMeeGoGraphicsSystemHelper.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtScriptTools.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtCLucene.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtTest.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtHelp.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtSvg.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtDesigner.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtXml.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtGui.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtCore.prl</Path>
             <Path fileType="library">/usr/lib64/libQtMultimedia.prl</Path>
             <Path fileType="library">/usr/lib64/libQtSql.prl</Path>
             <Path fileType="library">/usr/lib64/libQtXmlPatterns.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtDesignerComponents.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtCore.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtNetwork.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtSvg.prl</Path>
             <Path fileType="library">/usr/lib64/libQtScript.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtMeeGoGraphicsSystemHelper.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtHelp.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtCLucene.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtXml.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtUiTools.prl</Path>
+            <Path fileType="library">/usr/lib64/libQt3Support.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtDesignerComponents.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtGui.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtDBus.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtDesigner.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtTest.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtOpenGL.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtDeclarative.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtScriptTools.prl</Path>
             <Path fileType="library">/usr/lib64/qt4</Path>
-            <Path fileType="data">/usr/share/qt4</Path>
         </Files>
     </Package>
     <Package>
@@ -55,20 +56,20 @@
             <Dependency release="current">qt4</Dependency>
         </RuntimeDependencies>
         <Files>
+            <Path fileType="header">/usr/include</Path>
             <Path fileType="executable">/usr/bin/qmake</Path>
             <Path fileType="library">/usr/lib64/lib*.so</Path>
             <Path fileType="library">/usr/lib64/lib*.a</Path>
             <Path fileType="data">/usr/lib64/pkgconfig</Path>
-            <Path fileType="header">/usr/include</Path>
         </Files>
     </Package>
     <History>
         <Update release="1">
-            <Date>2015-08-05</Date>
+            <Date>2015-08-28</Date>
             <Version>4.8.7</Version>
             <Comment>Packaging update</Comment>
-            <Name>Guilherme Thomazi Bonicontro</Name>
-            <Email>thomazi@linux.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Update>
     </History>
 </PISI>

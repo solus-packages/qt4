@@ -46,3 +46,8 @@ build      : |
 install    : |
     unset LD_AS_NEEDED
     %make_install INSTALL_ROOT=$installdir
+    pushd $installdir/usr/bin
+    for i in *; do
+      mv "$i" "${i}-qt4"
+    done
+    popd
