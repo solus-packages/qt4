@@ -1,44 +1,57 @@
 name       : qt4
 version    : 4.8.7
-release    : 1
+release    : 2
 homepage   : http://www.qt.io/
 source     :
     - http://download.qt.io/official_releases/qt/4.8/4.8.7/qt-everywhere-opensource-src-4.8.7.tar.gz : e2882295097e47fe089f8ac741a95fef47e0a73a3f3cdf21b56990638f626ea0
 license    : LGPL-2.1
 summary    : A cross-platform application and UI framework
 builddeps  :
-    - zlib-devel
-    - gperf
-    - pkgconfig(gtk+-2.0)
-    - pkgconfig(gl)
-    - pkgconfig(libtiff-4)
-    - pkgconfig(xcb)
-    - pkgconfig(icu-uc)
     - pkgconfig(alsa)
-    - pkgconfig(xv)
-    - pkgconfig(xext)
+    - pkgconfig(atk)
+    - pkgconfig(cairo)
+    - pkgconfig(gl)
+    - pkgconfig(glu)
     - pkgconfig(gstreamer-1.0)
     - pkgconfig(gstreamer-plugins-base-1.0)
+    - pkgconfig(gtk+-2.0)
+    - pkgconfig(icu-uc)
     - pkgconfig(libdrm)
-    - pkgconfig(xkbcommon)
-    - libjpeg-turbo-devel
-    - pkgconfig(x11)
     - pkgconfig(libpulse)
-    - pkgconfig(xi)
+    - pkgconfig(libtiff-4)
+    - pkgconfig(nss)
+    - pkgconfig(pango)
+    - pkgconfig(x11)
+    - pkgconfig(xcb)
     - pkgconfig(xcursor)
+    - pkgconfig(xi)
+    - pkgconfig(xext)
+    - pkgconfig(xkbcommon)
     - pkgconfig(xrandr)
     - pkgconfig(xtst)
-    - pkgconfig(nss)
-    - pkgconfig(cairo)
-    - pkgconfig(pango)
-    - pkgconfig(atk)
+    - pkgconfig(xv)
+    - pkgconfig(zlib)
+    - gperf
+    - libjpeg-turbo-devel
 description: |
    	A cross-platform application and UI framework
 patterns   :
     - devel: /usr/bin/qmake
 setup      : |
     unset LD_AS_NEEDED
-    ./configure --prefix=/usr --libdir=/usr/lib64 -bindir /usr/bin -datadir /usr/share/qt4 -docdir /usr/share/doc/qt4 -sysconfdir /etc/xdg -plugindir %libdir%/qt4/plugins -translationdir /usr/share/qt4/translations -importdir %libdir%/qt4/imports -headerdir /usr/include/qt4 -opensource -confirm-license -no-phonon -no-phonon-backend -no-webkit -graphicssystem raster -openssl-linked -nomake demos -nomake examples -nomake docs -no-rpath -optimized-qmake -no-reduce-relocations -dbus-linked -no-openvg -opengl es2
+    ./configure --prefix=/usr --libdir=/usr/lib64 -bindir /usr/bin -datadir /usr/share/qt4 -docdir /usr/share/doc/qt4 -sysconfdir /etc/xdg -plugindir %libdir%/qt4/plugins -translationdir /usr/share/qt4/translations -importdir %libdir%/qt4/imports -headerdir /usr/include/qt4 \
+        -dbus-linked \
+        -graphicssystem raster \
+        -opensource -confirm-license \
+        -no-phonon -no-phonon-backend \
+        -no-webkit \
+        -nomake demos -nomake docs -nomake examples \
+        -no-openvg \
+        -no-reduce-relocations \
+        -no-rpath \
+        -opengl \
+        -openssl-linked \
+        -optimized-qmake
 build      : |
     unset LD_AS_NEEDED
     export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$srcdir/lib"
