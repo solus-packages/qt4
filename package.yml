@@ -1,6 +1,6 @@
 name       : qt4
 version    : 4.8.7
-release    : 5
+release    : 6
 homepage   : http://www.qt.io/
 source     :
     - http://download.qt.io/official_releases/qt/4.8/4.8.7/qt-everywhere-opensource-src-4.8.7.tar.gz : e2882295097e47fe089f8ac741a95fef47e0a73a3f3cdf21b56990638f626ea0
@@ -39,6 +39,7 @@ description: |
 patterns   :
     - devel: /usr/bin/qmake
 setup      : |
+    %patch -p1 < $pkgfiles/qt-everywhere-opensource-src-4.8.7-gcc6.patch
     unset LD_AS_NEEDED
     ./configure --prefix=/usr --libdir=/usr/lib64 -bindir /usr/bin -datadir /usr/share/qt4 -docdir /usr/share/doc/qt4 -sysconfdir /etc/xdg -plugindir %libdir%/qt4/plugins -translationdir /usr/share/qt4/translations -importdir %libdir%/qt4/imports -headerdir /usr/include/qt4 \
         -dbus-linked \
