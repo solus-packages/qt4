@@ -1,6 +1,6 @@
 name       : qt4
 version    : 4.8.7
-release    : 9
+release    : 10
 homepage   : http://www.qt.io/
 source     :
     - http://download.qt.io/official_releases/qt/4.8/4.8.7/qt-everywhere-opensource-src-4.8.7.tar.gz : e2882295097e47fe089f8ac741a95fef47e0a73a3f3cdf21b56990638f626ea0
@@ -61,7 +61,7 @@ setup      : |
 build      : |
     unset LD_AS_NEEDED
     export CXXFLAGS="$CXXFLAGS -std=gnu++98 -Wno-deprecated"
-    export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$srcdir/lib"
+    export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$workdir/lib"
     %make
 install    : |
     unset LD_AS_NEEDED
