@@ -1,6 +1,6 @@
 name       : qt4
 version    : 4.8.7
-release    : 10
+release    : 11
 homepage   : http://www.qt.io/
 source     :
     - http://download.qt.io/official_releases/qt/4.8/4.8.7/qt-everywhere-opensource-src-4.8.7.tar.gz : e2882295097e47fe089f8ac741a95fef47e0a73a3f3cdf21b56990638f626ea0
@@ -37,7 +37,7 @@ builddeps  :
 description: |
     A cross-platform application and UI framework
 patterns   :
-    - devel: /usr/bin/qmake
+    - devel : /usr/bin/qmake
 setup      : |
     %patch -p1 < $pkgfiles/qt-everywhere-opensource-src-4.8.7-gcc6.patch
     %patch -p1 < $pkgfiles/0001-Enable-building-with-C-11-and-C-14.patch
