@@ -1,11 +1,12 @@
 name       : qt4
 version    : 4.8.7
-release    : 12
+release    : 13
 homepage   : http://www.qt.io/
 source     :
     - http://download.qt.io/official_releases/qt/4.8/4.8.7/qt-everywhere-opensource-src-4.8.7.tar.gz : e2882295097e47fe089f8ac741a95fef47e0a73a3f3cdf21b56990638f626ea0
 license    : LGPL-2.1
 summary    : A cross-platform application and UI framework
+component  : desktop.qt
 builddeps  :
     - pkgconfig(alsa)
     - pkgconfig(atk)
