@@ -3,73 +3,105 @@
         <Name>qt4</Name>
         <Homepage>http://www.qt.io/</Homepage>
         <Packager>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>LGPL-2.1</License>
+        <PartOf>desktop.qt</PartOf>
         <Summary xml:lang="en">A cross-platform application and UI framework</Summary>
-        <Description xml:lang="en">	A cross-platform application and UI framework
+        <Description xml:lang="en">A cross-platform application and UI framework
 </Description>
         <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>qt4</Name>
         <Summary xml:lang="en">A cross-platform application and UI framework</Summary>
-        <Description xml:lang="en">	A cross-platform application and UI framework
+        <Description xml:lang="en">A cross-platform application and UI framework
 </Description>
         <PartOf>desktop.qt</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="data">/usr/share/qt4</Path>
             <Path fileType="library">/usr/lib64/lib*.so.*</Path>
-            <Path fileType="library">/usr/lib64/libQtMultimedia.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtSql.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtXmlPatterns.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtCore.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtNetwork.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtSvg.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtScript.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtMeeGoGraphicsSystemHelper.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtHelp.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtCLucene.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtXml.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtUiTools.prl</Path>
             <Path fileType="library">/usr/lib64/libQt3Support.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtCLucene.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtCore.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtDBus.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtDeclarative.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtDesigner.prl</Path>
             <Path fileType="library">/usr/lib64/libQtDesignerComponents.prl</Path>
             <Path fileType="library">/usr/lib64/libQtGui.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtDBus.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtDesigner.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtTest.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtHelp.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtMultimedia.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtNetwork.prl</Path>
             <Path fileType="library">/usr/lib64/libQtOpenGL.prl</Path>
-            <Path fileType="library">/usr/lib64/libQtDeclarative.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtScript.prl</Path>
             <Path fileType="library">/usr/lib64/libQtScriptTools.prl</Path>
-            <Path fileType="library">/usr/lib64/qt4</Path>
+            <Path fileType="library">/usr/lib64/libQtSql.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtSvg.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtTest.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtUiTools.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtXml.prl</Path>
+            <Path fileType="library">/usr/lib64/libQtXmlPatterns.prl</Path>
+            <Path fileType="library">/usr/lib64/qt4/imports/Qt/labs/folderlistmodel/libqmlfolderlistmodelplugin.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/imports/Qt/labs/folderlistmodel/qmldir</Path>
+            <Path fileType="library">/usr/lib64/qt4/imports/Qt/labs/gestures/libqmlgesturesplugin.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/imports/Qt/labs/gestures/qmldir</Path>
+            <Path fileType="library">/usr/lib64/qt4/imports/Qt/labs/particles/libqmlparticlesplugin.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/imports/Qt/labs/particles/qmldir</Path>
+            <Path fileType="library">/usr/lib64/qt4/imports/Qt/labs/shaders/libqmlshadersplugin.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/imports/Qt/labs/shaders/qmldir</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/accessible/libqtaccessiblecompatwidgets.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/accessible/libqtaccessiblewidgets.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/bearer/libqconnmanbearer.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/bearer/libqgenericbearer.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/bearer/libqnmbearer.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/codecs/libqcncodecs.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/codecs/libqjpcodecs.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/codecs/libqkrcodecs.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/codecs/libqtwcodecs.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/designer/libqdeclarativeview.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/designer/libqt3supportwidgets.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/graphicssystems/libqglgraphicssystem.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/graphicssystems/libqtracegraphicssystem.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/iconengines/libqsvgicon.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/imageformats/libqgif.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/imageformats/libqico.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/imageformats/libqjpeg.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/imageformats/libqmng.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/imageformats/libqsvg.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/imageformats/libqtga.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/imageformats/libqtiff.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/inputmethods/libqimsw-multi.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/qmltooling/libqmldbg_inspector.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/qmltooling/libqmldbg_tcp.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/script/libqtscriptdbus.so</Path>
+            <Path fileType="library">/usr/lib64/qt4/plugins/sqldrivers/libqsqlite.so</Path>
+            <Path fileType="data">/usr/share/qt4</Path>
         </Files>
     </Package>
     <Package>
         <Name>qt4-devel</Name>
         <Summary xml:lang="en">Development files for qt4</Summary>
-        <Description xml:lang="en">	A cross-platform application and UI framework
+        <Description xml:lang="en">A cross-platform application and UI framework
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="current">qt4</Dependency>
+            <Dependency release="15">qt4</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="header">/usr/include</Path>
-            <Path fileType="executable">/usr/bin/qmake</Path>
-            <Path fileType="library">/usr/lib64/lib*.so</Path>
+            <Path fileType="header">/usr/include/</Path>
             <Path fileType="library">/usr/lib64/lib*.a</Path>
-            <Path fileType="data">/usr/lib64/pkgconfig</Path>
+            <Path fileType="library">/usr/lib64/lib*.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/*.pc</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2015-08-28</Date>
+        <Update release="15">
+            <Date>2017-11-24</Date>
             <Version>4.8.7</Version>
             <Comment>Packaging update</Comment>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>
