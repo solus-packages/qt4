@@ -836,7 +836,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="18">qt4</Dependency>
+            <Dependency release="19">qt4</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/qt4/Qt/Qt3Support</Path>
@@ -3812,8 +3812,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="18">
-            <Date>2018-06-23</Date>
+        <Update release="19">
+            <Date>2018-07-31</Date>
             <Version>4.8.7</Version>
             <Comment>Packaging update</Comment>
             <Name>Joey Riches</Name>
