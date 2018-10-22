@@ -1,6 +1,6 @@
 name       : qt4
 version    : 4.8.7
-release    : 19
+release    : 20
 homepage   : http://www.qt.io/
 source     :
     - https://download.qt.io/archive/qt/4.8/4.8.7/qt-everywhere-opensource-src-4.8.7.tar.gz : e2882295097e47fe089f8ac741a95fef47e0a73a3f3cdf21b56990638f626ea0
