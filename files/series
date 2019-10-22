@@ -1,0 +1,5 @@
+qt-everywhere-opensource-src-4.8.7-gcc6.patch
+0001-Enable-building-with-C-11-and-C-14.patch
+0001-qapplication-x11-Detect-the-MATE-desktop-as-GNOME.patch
+qt-everywhere-opensource-src-4.8.7-icu59.patch
+qt-everywhere-opensource-src-4.8.7-qforeach.patch

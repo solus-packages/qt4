@@ -1,6 +1,6 @@
 name       : qt4
 version    : 4.8.7
-release    : 20
+release    : 21
 homepage   : http://www.qt.io/
 source     :
     - https://download.qt.io/archive/qt/4.8/4.8.7/qt-everywhere-opensource-src-4.8.7.tar.gz : e2882295097e47fe089f8ac741a95fef47e0a73a3f3cdf21b56990638f626ea0
@@ -34,16 +34,14 @@ description: |
 patterns   :
     - devel : /usr/bin/qmake
 setup      : |
-    %patch -p1 < $pkgfiles/qt-everywhere-opensource-src-4.8.7-gcc6.patch
-    %patch -p1 < $pkgfiles/0001-Enable-building-with-C-11-and-C-14.patch
-    %patch -p1 < $pkgfiles/0001-qapplication-x11-Detect-the-MATE-desktop-as-GNOME.patch
-    %patch -p1 < $pkgfiles/qt-everywhere-opensource-src-4.8.7-icu59.patch
+    %apply_patches
     unset LD_AS_NEEDED
     export CXXFLAGS="$CXXFLAGS -std=gnu++98 -Wno-deprecated"
     ./configure --prefix=/usr --libdir=/usr/lib64 -bindir /usr/bin -datadir /usr/share/qt4 -docdir /usr/share/doc/qt4 -sysconfdir /etc/xdg -plugindir %libdir%/qt4/plugins -translationdir /usr/share/qt4/translations -importdir %libdir%/qt4/imports -headerdir /usr/include/qt4 \
         -dbus-linked \
         -graphicssystem raster \
         -opensource -confirm-license \
+        -no-cups \
         -no-phonon -no-phonon-backend \
         -no-webkit \
         -nomake demos -nomake docs -nomake examples \
@@ -59,7 +57,7 @@ build      : |
     unset LD_AS_NEEDED
     export CXXFLAGS="$CXXFLAGS -std=gnu++98 -Wno-deprecated"
     export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$workdir/lib"
-    %make
+    make
 install    : |
     unset LD_AS_NEEDED
     %make_install INSTALL_ROOT=$installdir
